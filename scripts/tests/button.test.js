@@ -20,9 +20,9 @@ describe('DOM tests', () => {
     test('Changing <p> content', () => {
         buttonClick(); // Test this function and compare
         expect(document.getElementById('my-text').innerHTML).toEqual('You clicked me!'); // Matcher function needed
-    })
+    });
     
     test('Does one h1 exist?', () => {
         expect(document.getElementsByTagName('h1').length).toBeGreaterThanOrEqual(1); // toBe() for specific
-    })
+    });
 });
